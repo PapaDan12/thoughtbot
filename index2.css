@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #29292c;
+    color:  #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+    background-color: #29292c;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.thought {
+    color: #e03131;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.thought i {
+    border-radius: 100%;
+    padding: 0.5rem;
+    color: #e03131;
+    margin-right: 0.5rem;
+    
+
+}
+
+.headchild1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3.5rem;
+}
+.headchild2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.btn1 {
+    background-color: #e03131;
+    color:  #fff;
+    border-style: none;
+    border-radius: 2rem;
+    height: 2.7rem;
+    width: 10rem;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn1:hover {
+    border-style: solid;
+}
+.second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img1 {
+    margin-top: 5rem;
+    height: 30rem;
+}
+.secondchild h1 {
+    margin-top: -25rem;
+    margin-left: 9rem;
+    font-size: 3rem;
+    
+}
+.tot {
+    margin-top: 2rem;
+    margin-left: 9rem;
+    color: #cbcbd3;
+    font-size: large;
+}
+.btn2 {
+    background-color: #e03131;
+    color: #fff;
+    border-radius: 3rem;
+    border-style: none;
+    width: 18rem;
+    height: 3.3rem;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.img2 {
+    height: 30rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}

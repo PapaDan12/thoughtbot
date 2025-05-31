@@ -445,8 +445,12 @@ section p {
 }
 .subgrid14 li {
     list-style: none;
-    text-decoration: underline;
     font-size: 1.2em;
+    color: #fff;
+
+}
+.subgrid14 a {
+    color: white;
 }
 .subgrid14 li:hover {
     text-decoration: none;
